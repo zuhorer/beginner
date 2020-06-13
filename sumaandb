@@ -1,0 +1,9 @@
+n = input()
+s= (n.split())
+sum=0
+for i in range (0,len(s)):
+    s[i]= int(s[i])
+
+
+sum=s[0]+s[1]
+print(sum)
